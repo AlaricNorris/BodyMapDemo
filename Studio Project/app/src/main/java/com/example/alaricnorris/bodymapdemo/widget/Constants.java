@@ -9,11 +9,13 @@
  */
 package com.example.alaricnorris.bodymapdemo.widget ;
 
-import java.util.ArrayList ;
-import java.util.LinkedHashMap ;
-import android.graphics.Point ;
-import android.util.Log ;
-import com.google.gson.Gson ;
+import android.graphics.Point;
+import android.util.Log;
+
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
 
 /**
  *	ClassName:	Constants

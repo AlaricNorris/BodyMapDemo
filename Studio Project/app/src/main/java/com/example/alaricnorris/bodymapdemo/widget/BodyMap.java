@@ -9,37 +9,40 @@
  */
 package com.example.alaricnorris.bodymapdemo.widget ;
 
-import java.util.ArrayList ;
-import java.util.HashMap ;
-import java.util.Iterator ;
-import java.util.LinkedHashMap ;
-import java.util.Map.Entry ;
-import android.content.Context ;
-import android.content.res.TypedArray ;
-import android.graphics.Bitmap ;
-import android.graphics.BitmapFactory ;
-import android.graphics.Canvas ;
-import android.graphics.Color ;
-import android.graphics.Paint ;
-import android.graphics.Paint.Style ;
-import android.graphics.Path ;
-import android.graphics.Point ;
-import android.graphics.Rect ;
-import android.graphics.Region ;
-import android.graphics.RegionIterator ;
-import android.os.Handler ;
-import android.os.Message ;
-import android.text.TextUtils ;
-import android.util.AttributeSet ;
-import android.util.DisplayMetrics ;
-import android.util.Log ;
-import android.view.MotionEvent ;
-import android.view.WindowManager ;
-import android.widget.ImageView ;
-import android.widget.Toast ;
-import com.example.alaricnorris.bodymapdemo.BuildConfig ;
-import com.example.alaricnorris.bodymapdemo.R ;
-import com.google.gson.Gson ;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.graphics.Path;
+import android.graphics.Point;
+import android.graphics.Rect;
+import android.graphics.Region;
+import android.graphics.RegionIterator;
+import android.os.Handler;
+import android.os.Message;
+import android.text.TextUtils;
+import android.util.AttributeSet;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.example.alaricnorris.bodymapdemo.BuildConfig;
+import com.example.alaricnorris.bodymapdemo.R;
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
 /**
  *	ClassName:	BodyMayImageView
@@ -59,6 +62,8 @@ import com.google.gson.Gson ;
  *	Modifications:	init
  *	──────────────────────────────────────────────────────────────────────────────────────────────────────
  */
+@SuppressWarnings("ResourceType")
+@SuppressLint("ShowToast")
 public class BodyMap extends ImageView {
 
 	private Context mContext ;
