@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="imagesLayers">
+        <item>body_part_female_front_1head</item>
+        <item>body_part_female_front_2neck</item>
+        <item>body_part_female_front_3breast</item>
+        <item>body_part_female_front_4arms</item>
+        <item>body_part_female_front_5belly</item>
+        <item>body_part_female_front_6underpants</item>
+        <item>body_part_female_front_7legs</item>
+    </string-array>
+
+</resources>

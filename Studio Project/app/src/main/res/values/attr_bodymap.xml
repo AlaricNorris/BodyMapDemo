@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="detectRegionColor" format="color" />
+    <attr name="showdetectRegion" format="boolean" />
+    <attr name="imagesLayers" format="reference" />
+    <attr name="image" format="reference" />
+    <attr name="bodyParam" format="reference" />
+
+    <declare-styleable name="BodyMap">
+        <attr name="detectRegionColor" />
+        <attr name="showdetectRegion" />
+        <attr name="imagesLayers" />
+        <attr name="image" />
+        <attr name="bodyParam" />
+    </declare-styleable>
+
+</resources>
